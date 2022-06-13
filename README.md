@@ -13,14 +13,16 @@ To analyze the outcomes by launch date, I created a pivot table in Excel and add
 
 I then visualized it by creating a Line with Markers chart with months on the x axis and count of outcomes on the y axis.
 
-![Launch Date Line Chart](https://user-images.githubusercontent.com/106203262/173389415-8bc24060-0984-41bd-a638-c4d6e715f200.png)
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/106203262/173391002-1f7fad8f-8086-4886-895e-c9a822667385.png)
+
 
 ### Analysis of Outcomes Based on Goals
 To analyze the Outcomes based on goals, I first had to obtain the number of successful, failed, and canceled kickstarters based on a range of the goal amount. To do so, I used a =countifs function to search the corresponding worksheet and column and count the number of rows that contained a value within the defined parameter. Once I obtained the counts, I then calculated the percentage that each range either succeeded, failed, or canceled. To do so, I divided the number of the individual field by the total count for that range.
 
 I then created a Line with Marker chart to visualize this information by placing the goal ranges in the x axis and the percentage on the y axis.
 
-![Parent Category Outcomes Bar Chart](https://user-images.githubusercontent.com/106203262/173389524-d813bbb5-3112-4f3b-906b-c3dbd0cbb540.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/106203262/173391023-b4f368cc-3b66-4bb1-9a95-4938281d9dcb.png)
+
 
 ### Challenges and Difficulties Encountered
 I did not face any challenges in creating the pivot table or chart, but depending on the data I had, a line chart might not have been the best and I could envision scenarios where I would have had to try different chart types to see which one best visualized the information I wanted to present.
